@@ -1252,19 +1252,27 @@
   resolved "https://registry.yarnpkg.com/@figliolia/event-emitter/-/event-emitter-1.0.7.tgz#54a2dbc8628f6462b4a9c269bfffcfaf3e8b37e3"
   integrity sha512-1OrsthsbDSbHnPMAJ+GzqUp8wZb+1mTnGQ3Mos2SbS/YHvLUvocmVWMRQ3YNYnFvFYvfcyRZTQOxz8iAQYT9LA==
 
-"@figliolia/galena@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@figliolia/galena/-/galena-2.0.0.tgz#599de933b95a3fc07e3beb3ac8d2623a61b1f012"
-  integrity sha512-xJNiOuwtRFxKCtIArI6GchBPJJW5Z8j+mXQ1ZaikEyTU1+esY+hNAg9i2+Lp2IS+IITN25O/8CM8pvthJ2mDLQ==
+"@figliolia/galena@^2.0.7":
+  version "2.0.7"
+  resolved "https://registry.yarnpkg.com/@figliolia/galena/-/galena-2.0.7.tgz#cfe10e201ae4de1391c1530671a36ace40cb9cc7"
+  integrity sha512-a6xbS5aDjiiDs5k20DfVKdOIcETFgJYmGNYzb3n9RLBmrOj4yNTiSvym2DOw5XoQyOGn4vHUg4GfIVqSh3P/5A==
   dependencies:
     "@figliolia/event-emitter" "^1.0.7"
 
-"@figliolia/react-galena@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@figliolia/react-galena/-/react-galena-2.0.1.tgz#6aecfc4204a06e93e65918285583ebd1c31495c7"
-  integrity sha512-G88tvBlo14BWAd+m0RKNuFaJjrSML81IVCDwwiopHHxSKSC6Wtn16eelL2NPWuoxSbpeMrqeV/8mgLXC2Hlqww==
+"@figliolia/metrics@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@figliolia/metrics/-/metrics-1.0.2.tgz#1aa78ad29e533c5d2b6b00b7c524c4fff75d8452"
+  integrity sha512-w31fcccqp3XgJFhh7gOq+r5LgJCpGjDYA6wK0D+OdDSV0Dw8RqbhEI3iYOiDzF8PID/tDbOalpQZqZZwAIJt5A==
   dependencies:
-    "@figliolia/galena" "^2.0.0"
+    "@figliolia/event-emitter" "^1.0.7"
+    beaconer "^1.0.1"
+
+"@figliolia/react-galena@^2.0.4":
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/@figliolia/react-galena/-/react-galena-2.0.4.tgz#638c66f9f7cc82e1d74af1f4a23786373582afc7"
+  integrity sha512-kEYPVrCNJmA1dAA2EKDGPRHl13F8KaNMcg/bMHq41MWFlb/Em8+sl7NtZYcj0RIpstU071E1itc5jBOpMExtHg==
+  dependencies:
+    "@figliolia/galena" "^2.0.7"
 
 "@humanwhocodes/config-array@^0.11.8":
   version "0.11.8"
@@ -2943,6 +2951,11 @@ batch@0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/batch/-/batch-0.6.1.tgz#dc34314f4e679318093fc760272525f94bf25c16"
   integrity sha512-x+VAiMRL6UPkx+kudNvxTl6hB2XNNCG2r+7wixVfIYwu/2HKRXimwQyaumLjMveWvT2Hkd/cAJw+QBMfJ/EKVw==
+
+beaconer@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/beaconer/-/beaconer-1.0.1.tgz#45a15305c00206463c02eb7b4e56d41e1492243c"
+  integrity sha512-BrHmmJjf+lxmu8rVMVKpt9V7gtbnBYLBkDjOQ381Z0S65BnTWjR0zHF6iDTocKkx3duefLND9Wkt244VOeVklg==
 
 bfj@^7.0.2:
   version "7.0.2"

@@ -1,5 +1,5 @@
 {
-  "name": "starter-kit",
+  "name": "galena-quick-start",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -11,8 +11,9 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
-    "@figliolia/galena": "^2.0.0",
-    "@figliolia/react-galena": "^2.0.1",
+    "@figliolia/galena": "^2.0.7",
+    "@figliolia/metrics": "^1.0.2",
+    "@figliolia/react-galena": "^2.0.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router": "^6.11.1",

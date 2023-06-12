@@ -1,5 +1,6 @@
 import type { To } from "react-router-dom";
 import { createBrowserRouter } from "react-router-dom";
+import { PageLoadPlugin } from "@figliolia/metrics";
 import { NavigationState } from "State/Navigation";
 
 import { AboutRoute } from "./About";
@@ -18,8 +19,10 @@ const { navigate } = Routing;
 
 // @ts-ignore
 Routing.navigate = (to: To | null, opts?: any) => {
-  void navigate(to, opts);
+  PageLoadPlugin.setTiming();
+  const promise = navigate(to, opts);
   if (to !== null) {
     NavigationState.routeTransition(to);
   }
+  return promise;
 };
